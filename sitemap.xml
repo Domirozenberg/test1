@@ -1,52 +1,39 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>My Simple Git Page</title>
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; }
-        h1 { color: #333; }
-        .file-list { margin-top: 20px; border-top: 1px solid #ccc; padding-top: 15px; }
-        .file-list li { margin-bottom: 10px; }
-    </style>
-</head>
-<body>
-
-    <h1>Welcome to the Repository Index!</h1>
-    <p>This is the main landing page (`index.html`) for my simple project.</p>
-
-    <h2>Project Files</h2>
-
-    <ul class="file-list">
-        <li>
-            <strong>Test Page:</strong>
-            <a href="./test.html">Go to test.html</a>
-        </li>
-
-        <li>
-            <strong>Example Doc:</strong>
-            <a href="./example.docx">Go to example.docx</a>
-        </li>
-
-        <li>
-            <strong>Example Doc/html:</strong>
-            <a href="./example.docx.html">Go to example.docx.html</a>
-        </li>
-        
-        <li>
-            <strong>Read Me:</strong>
-            <a href="./README.md">View the README.md file</a>
-        </li>
-
-        <li>
-            <strong>File in Folder:</strong>
-            <a href="./files/test_in_dir.html">Go to files_in_dir.html (in subfolder)</a>
-        </li>
-    </ul>
-
-    <footer>
-        <p>This page demonstrates basic relative file linking.</p>
-    </footer>
-
-</body>
-</html>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://domirozenberg.github.io/test1/</loc>
+    <lastmod>2025-01-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://domirozenberg.github.io/test1/index.html</loc>
+    <lastmod>2025-01-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://domirozenberg.github.io/test1/test.html</loc>
+    <lastmod>2025-01-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://domirozenberg.github.io/test1/example.docx.html</loc>
+    <lastmod>2025-01-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://domirozenberg.github.io/test1/README.md</loc>
+    <lastmod>2025-01-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://domirozenberg.github.io/test1/files_in_dir.html</loc>
+    <lastmod>2025-01-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>
